@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="240" viewBox="0 0 1000 240">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#161b3a"/>
+      <stop offset="100%" stop-color="#2a1245"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="50%" stop-color="#bc8cff"/>
+      <stop offset="100%" stop-color="#ff7eb6"/>
+    </linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+    <style>
+      .t  { font: 700 54px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #f0f6fc; }
+      .s  { font: 400 20px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #8b949e; }
+      .m  { font: 500 15px Consolas, 'Courier New', monospace; fill: #7ee787; }
+      .fade { opacity: 0; animation: in 1s ease-out forwards; }
+      .d1 { animation-delay: .2s } .d2 { animation-delay: .6s } .d3 { animation-delay: 1s }
+      @keyframes in { from { opacity: 0; transform: translateY(8px) } to { opacity: 1; transform: none } }
+      .caret { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .orb { animation: float 7s ease-in-out infinite; }
+      .orb2 { animation: float 9s ease-in-out infinite reverse; }
+      @keyframes float { 0%,100% { transform: translateY(0) } 50% { transform: translateY(-14px) } }
+    </style>
+  </defs>
+
+  <rect width="1000" height="240" rx="16" fill="url(#bg)"/>
+  <rect width="1000" height="240" rx="16" fill="url(#grid)"/>
+
+  <g class="orb"><circle cx="860" cy="70" r="90" fill="#bc8cff" opacity="0.14"/></g>
+  <g class="orb2"><circle cx="760" cy="190" r="60" fill="#58a6ff" opacity="0.14"/></g>
+
+  <!-- pencil / plotter motif -->
+  <g transform="translate(800 70) rotate(35)" opacity="0.9">
+    <rect x="0" y="0" width="22" height="110" rx="3" fill="url(#accent)"/>
+    <rect x="0" y="0" width="22" height="14" rx="3" fill="#ff7eb6"/>
+    <path d="M0 110 L11 136 L22 110 Z" fill="#e3b341"/>
+    <path d="M7 126 L11 136 L15 126 Z" fill="#30363d"/>
+  </g>
+  <path d="M700 205 q 25 -30 50 0 t 50 0 t 50 0" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-dasharray="200" stroke-dashoffset="200">
+    <animate attributeName="stroke-dashoffset" from="200" to="0" dur="2.5s" begin="0.8s" fill="freeze"/>
+  </path>
+
+  <text x="60" y="80" class="m fade d1">~/qateralong $ whoami<tspan class="caret">▍</tspan></text>
+  <text x="60" y="145" class="t fade d2">Hi, I'm QaterAlong</text>
+  <rect x="62" y="160" width="230" height="4" rx="2" fill="url(#accent)" class="fade d2"/>
+  <text x="60" y="198" class="s fade d3">Java · Python · AI agents · 3D‑printer hacks · Minecraft plugins</text>
+</svg>
