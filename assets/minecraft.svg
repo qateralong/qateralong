@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56.25" height="48" viewBox="-44 0 300 256">
+  <!-- same tile as skillicons.dev (dark), with the gap built in on the left -->
+  <rect width="256" height="256" rx="60" fill="#242938"/>
+  <!-- grass block -->
+  <polygon points="128,40 208,86 128,132 48,86" fill="#5dbb3a"/>
+  <polygon points="48,86 128,132 128,220 48,174" fill="#8b5a2b"/>
+  <polygon points="128,132 208,86 208,174 128,220" fill="#6e4521"/>
+  <!-- grass overhang on the sides -->
+  <polygon points="48,86 128,132 128,152 108,141 108,150 88,138 88,129 68,118 68,126 48,114" fill="#4a9a2e"/>
+  <polygon points="128,132 208,86 208,114 188,126 188,117 168,129 168,138 148,150 148,141 128,152" fill="#3b7d25"/>
+  <!-- top texture -->
+  <polygon points="100,70 112,77 100,84 88,77" fill="#6fcf4a"/>
+  <polygon points="150,62 162,69 150,76 138,69" fill="#4fa832"/>
+  <polygon points="140,98 152,105 140,112 128,105" fill="#6fcf4a"/>
+  <polygon points="176,84 188,91 176,98 164,91" fill="#4fa832"/>
+  <polygon points="80,92 92,99 80,106 68,99" fill="#4fa832"/>
+  <!-- dirt specks -->
+  <polygon points="64,150 76,157 76,167 64,160" fill="#6b4220"/>
+  <polygon points="100,160 112,167 112,177 100,170" fill="#a0693a"/>
+  <polygon points="84,182 96,189 96,199 84,192" fill="#6b4220"/>
+  <polygon points="150,170 162,163 162,173 150,180" fill="#553418"/>
+  <polygon points="180,160 192,153 192,163 180,170" fill="#855329"/>
+  <polygon points="160,196 172,189 172,199 160,206" fill="#855329"/>
+  <!-- edge highlight -->
+  <polyline points="48,86 128,132 208,86" fill="none" stroke="#000" stroke-opacity="0.15" stroke-width="2"/>
+  <line x1="128" y1="132" x2="128" y2="220" stroke="#000" stroke-opacity="0.2" stroke-width="2"/>
+</svg>

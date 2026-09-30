@@ -28,7 +28,7 @@ public class QaterAlong {
 ### 🛠️ Tech stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,python,js,html,css,c,maven,linux,git,github,vscode,idea&perline=12" alt="tech stack"/>
+  <img src="https://skillicons.dev/icons?i=java,python,js,c,maven,linux,git,github,vscode,idea&perline=12" alt="tech stack"/><img src="assets/minecraft.svg" alt="Minecraft" title="Minecraft"/>
 </p>
 
 ### 🚀 Featured projects

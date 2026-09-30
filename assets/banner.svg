@@ -48,5 +48,5 @@
   <text x="60" y="80" class="m fade d1">~/qateralong $ whoami<tspan class="caret">▍</tspan></text>
   <text x="60" y="145" class="t fade d2">Hi, I'm QaterAlong</text>
   <rect x="62" y="160" width="230" height="4" rx="2" fill="url(#accent)" class="fade d2"/>
-  <text x="60" y="198" class="s fade d3">Java · Python · AI agents · 3D‑printer hacks · Minecraft plugins</text>
+  <text x="60" y="198" class="s fade d3">Java · Python · 3D‑printer tools · Minecraft plugins</text>
 </svg>
