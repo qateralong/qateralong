@@ -60,8 +60,11 @@ public class QaterAlong {
 ### 📊 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=qateralong&show_icons=true&hide_border=true&theme=tokyonight&count_private=true" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=qateralong&layout=compact&hide_border=true&theme=tokyonight" alt="top languages"/>
+  <img src="profile-summary-card-output/tokyonight/0-profile-details.svg" alt="profile details" width="100%"/>
+</p>
+<p align="center">
+  <img src="profile-summary-card-output/tokyonight/1-repos-per-language.svg" alt="repos per language" width="49%"/>
+  <img src="profile-summary-card-output/tokyonight/3-stats.svg" alt="stats" width="49%"/>
 </p>
 
 ### 🐍 Contribution snake
