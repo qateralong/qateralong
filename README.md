@@ -9,6 +9,13 @@ I build small, sharp tools — mostly for myself and my friends: networking, Min
 
 <br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg">
+  <img src="assets/card-light.svg" alt="GitHub activity: contributions this year, public repos, latest release, languages" width="100%">
+</picture>
+
+<br><br>
+
 <table>
   <tr>
     <td width="50%" valign="top">
