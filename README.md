@@ -38,5 +38,3 @@ I build small, sharp tools — mostly for myself and my friends: networking, Min
   <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=rust%2Cjava%2Cgo%2Cpython%2Clinux%2Carch%2Cbash%2Cgit%2Cgradle&theme=dark">
   <img src="https://skillicons.dev/icons?i=rust%2Cjava%2Cgo%2Cpython%2Clinux%2Carch%2Cbash%2Cgit%2Cgradle&theme=light" alt="rust, java, go, python, linux, arch, bash, git, gradle">
 </picture>
-
-<sub>also keeping a Minecraft server alive for friends — <a href="https://site.generalgameserver.ru">GGS</a></sub>
