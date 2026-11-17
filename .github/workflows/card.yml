@@ -11,8 +11,11 @@ permissions:
 jobs:
   card:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262  # v4, pinned
+        with:
+          persist-credentials: true
       - run: python3 assets/gen_card.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

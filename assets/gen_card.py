@@ -3,6 +3,7 @@
 import html
 import json
 import os
+import re
 import urllib.request
 from datetime import datetime, timezone
 
@@ -49,7 +50,9 @@ def stats(u):
             name = e["node"]["name"]
             if name in SKIP_LANGS:
                 continue
-            size, color = langs.get(name, (0, e["node"]["color"] or "#8b949e"))
+            color = e["node"]["color"] or ""
+            color = color if re.fullmatch(r"#[0-9a-fA-F]{3,8}", color) else "#8b949e"  # API data goes into an attribute
+            size, color = langs.get(name, (0, color))
             langs[name] = (size + e["size"], color)
         for rel in repo["releases"]["nodes"]:
             if rel["publishedAt"] and (not release or rel["publishedAt"] > release[2]):
